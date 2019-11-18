@@ -132,6 +132,38 @@
   margin-right: 20px;
 }
 
+.NCAAHeader {
+  height: 80px;
+  width: auto;
+  background-color: black;
+  color: blue;
+  margin-top: 0;
+}
+
+.NCAA {
+  font-size: 40pt;
+  margin-left: 20px;
+  margin-top: 0;
+  padding-top: 5px;
+  margin-bottom: 12px;
+}
+
+.NCAASeason {
+  text-align: center;
+  font-size: 35pt;
+  margin-top: 10px;
+  color: green;
+  background-color: lightgray;
+  margin-top: 0;
+  height: 60px;
+  font-family: 'Odibee Sans', cursive;
+}
+
+.links {
+  display: flex;
+  font-size: 20pt;
+}
+
 .App {
   text-align: center;
 }

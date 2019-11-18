@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 import Header from '../Header/Header';
+import NCAABBHeader from '../NCAABBHeader/NCAABBHeader';
 
 class NBA extends Component {
 
@@ -20,8 +21,8 @@ class NBA extends Component {
             method: 'GET',
             url: 'https://www.balldontlie.io/api/v1/games',
             params: {
-                start_date: '2019-11-17',
-                end_date: '2019-11-17',
+                start_date: '2019-11-18',
+                end_date: '2019-11-18',
                 per_page: 15
             }
         })
