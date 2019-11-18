@@ -15,12 +15,13 @@
 
 .nbaGames {
   text-align: center;
-  font-size: 30pt;
+  font-size: 35pt;
   margin-top: 10px;
   color: green;
   background-color: lightgray;
   margin-top: 0;
   height: 55px;
+  font-family: 'Odibee Sans', cursive;
 }
 
 
@@ -30,9 +31,10 @@
   background-color: lightgray;
   width: 700px;
   height: 100px;
-  margin: 50px 350px;
+  margin: 50px 375px;
   border-radius: 10px;
   text-align: center;
+  opacity: 0.6;
 }
 
 .gameDataContainerTwo {
@@ -41,8 +43,9 @@
   background-color: lightgray;
   width: 700px;
   height: 100px;
-  margin: 50px 350px;
+  margin: 50px 375px;
   border-radius: 10px;
+  opacity: 0.6;
 }
 
 .gameDataContainerThree{
@@ -51,8 +54,9 @@
   background-color: lightgray;
   width: 700px;
   height: 100px;
-  margin: 50px 350px;
+  margin: 50px 375px;
   border-radius: 10px;
+  opacity: 0.6;
 }
 
 .gameDataContainerFour {
@@ -61,8 +65,9 @@
   background-color: lightgray;
   width: 700px;
   height: 100px;
-  margin: 50px 350px;
+  margin: 50px 375px;
   border-radius: 10px;
+  opacity: 0.6;
 }
 
 .gameDataContainerFive {
@@ -72,8 +77,9 @@
   background-color: lightgray;
   width: 700px;
   height: 100px;
-  margin: 50px 350px;
+  margin: 50px 375px;
   border-radius: 10px;
+  opacity: 0.6;
 }
 
 .gameDataContainerSix {
@@ -82,41 +88,43 @@
   background-color: lightgray;
   width: 700px;
   height: 100px;
-  margin: 50px 350px;
+  margin: 50px 375px;
   border-radius: 10px;
+  opacity: 0.6;
 }
 
 .homeTeam {
-  margin-top: 35px;
-  margin-right: 40px;
+  margin: 35px auto;
+  /* margin-top: 35px; */
+  /* margin-right: 40px; */
   font-size: 25px;
 }
 
 .visitorTeam {
-  margin-top: 35px;
-  margin-left: 40px;
+  margin: 35px auto;
+  /* margin-top: 35px;
+  margin-left: 40px; */
   margin-right: 10px;
   font-size: 25px;
 }
 
 .visitorScore {
-  margin-top: 43px;
+  margin: 43px auto;
+  /* margin-top: 43px;
   /* color: blue; */
-  margin-right: 20px;
+  /* margin-right: 20px; */
 }
 
 .gameDataStatusContainer {
   width: 75px;
   height: 40px;
-  background-color: black;
   color: green;
   text-align: center;
-  margin-top: 20px;
-  padding-bottom: 20px;
+  /* margin-top: 10px; */
   font-size: 20px;
   font-weight: bold;
-  border-radius: 5px;
-  margin-right: 20px;
+  margin: 10px auto;
+  /* margin-right: 20px; */
 }
 
 .homeScore {

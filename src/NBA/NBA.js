@@ -36,7 +36,6 @@ class NBA extends Component {
 
     showGameData() {
 
-
         console.log(this.state.gameData);
         if (this.state.gameData.length > 0) {
             return (
