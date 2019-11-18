@@ -23,9 +23,105 @@
   height: 55px;
 }
 
-.todaysGames {
-  display: inline-block;
-  
+
+.gameDataContainerOne {
+  display: flex;
+  position: relative; 
+  background-color: lightgray;
+  width: 700px;
+  height: 100px;
+  margin: 50px 350px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.gameDataContainerTwo {
+  display: flex;
+  position: relative; 
+  background-color: lightgray;
+  width: 700px;
+  height: 100px;
+  margin: 50px 350px;
+  border-radius: 10px;
+}
+
+.gameDataContainerThree{
+  display: flex;
+  position: relative; 
+  background-color: lightgray;
+  width: 700px;
+  height: 100px;
+  margin: 50px 350px;
+  border-radius: 10px;
+}
+
+.gameDataContainerFour {
+  display: flex;
+  position: relative; 
+  background-color: lightgray;
+  width: 700px;
+  height: 100px;
+  margin: 50px 350px;
+  border-radius: 10px;
+}
+
+.gameDataContainerFive {
+  text-align: center;
+  display: flex;
+  position: relative; 
+  background-color: lightgray;
+  width: 700px;
+  height: 100px;
+  margin: 50px 350px;
+  border-radius: 10px;
+}
+
+.gameDataContainerSix {
+  display: flex;
+  position: relative; 
+  background-color: lightgray;
+  width: 700px;
+  height: 100px;
+  margin: 50px 350px;
+  border-radius: 10px;
+}
+
+.homeTeam {
+  margin-top: 35px;
+  margin-right: 40px;
+  font-size: 25px;
+}
+
+.visitorTeam {
+  margin-top: 35px;
+  margin-left: 40px;
+  margin-right: 10px;
+  font-size: 25px;
+}
+
+.visitorScore {
+  margin-top: 43px;
+  /* color: blue; */
+  margin-right: 20px;
+}
+
+.gameDataStatusContainer {
+  width: 75px;
+  height: 40px;
+  background-color: black;
+  color: green;
+  text-align: center;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+
+.homeScore {
+  margin-top: 43px;
+  margin-right: 20px;
 }
 
 .App {
