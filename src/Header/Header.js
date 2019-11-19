@@ -30,10 +30,12 @@ class Header extends Component {
         return(
             <div>
                 <div className='nbaHeader'>
-                <h1 className='nba'>NBA</h1>
-                </div>
                 <div>
-                <p className='nbaGames'><u>Today's Games</u></p>
+                    <h1 className='nba'>NBA</h1>
+                    <div>
+                        <p className='nbaGames'><u>Today's Games</u></p>
+                    </div>
+                </div>
                 </div>
             </div>
         );

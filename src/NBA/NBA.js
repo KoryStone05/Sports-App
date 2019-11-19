@@ -17,13 +17,14 @@ class NBA extends Component {
     getHomeTeamByName = (name) => {
         const _this = this;
 
+
         axios({
+
             method: 'GET',
             url: 'https://www.balldontlie.io/api/v1/games',
             params: {
                 start_date: '2019-11-18',
                 end_date: '2019-11-18',
-                per_page: 15
             }
         })
         .then(function(response){

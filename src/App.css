@@ -4,6 +4,7 @@
   background-color: black;
   color: orange;
   margin-top: 0;
+  margin-bottom: 0;
 }
 
 .nba {
@@ -16,10 +17,9 @@
 .nbaGames {
   text-align: center;
   font-size: 35pt;
-  margin-top: 10px;
+  margin-top: -25px;
   color: green;
   background-color: lightgray;
-  margin-top: 0;
   height: 55px;
   font-family: 'Odibee Sans', cursive;
 }
@@ -151,17 +151,23 @@
 .NCAASeason {
   text-align: center;
   font-size: 35pt;
-  margin-top: 10px;
+  margin-top: 0;
   color: green;
   background-color: lightgray;
   margin-top: 0;
-  height: 60px;
+  height: 55px;
   font-family: 'Odibee Sans', cursive;
 }
 
 .links {
+  position: relative;
   display: flex;
+  justify-content: space-between;
+  list-style-type: none;
   font-size: 20pt;
+  margin-top: 15px;
+  margin-right: 40px;
+  font-size: 15pt;
 }
 
 .App {

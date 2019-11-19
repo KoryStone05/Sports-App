@@ -18,21 +18,27 @@ function App() {
       <Switch>
       <Route exact path='/'>
         <Home />
+      <ul className='links'>
+        <Link to='/NBA'>NBA</Link>
+        <Link to='/NCAABasketball'>NCAA Men's Basketball</Link>
+      </ul>
     </Route>
     <Route path='/NBA'>
       <NBA />
-      <ul className='nbaGames NCAASeason links'>
+      <ul className='links'>
         <Link to='/'>Home</Link>
-        <Link to='/NBA'>NBA</Link>
         <Link to='/NCAABasketball'>NCAA Men's Basketball</Link>
-    </ul>
+      </ul>
     </Route>
     <Route path='/NCAABasketball'>
       <NCAABasketball />
-      <ul className='nbaGames NCAASeason links'>
-        <Link to='/'>Home</Link>
-        <Link to='/NBA'>NBA</Link>
-        <Link to='/NCAABasketball'>NCAA Men's Basketball</Link>
+      <ul className='links'>
+      <li>
+        <Link to='/'>Home</Link> 
+      </li>
+      <li>
+        <Link to='/NBA'>NBA</Link> 
+      </li>
     </ul>
     </Route>
     </Switch>
