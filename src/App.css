@@ -1,3 +1,171 @@
+.nbaHeader {
+  height: 80px;
+  width: auto;
+  background-color: black;
+  color: orange;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.nba {
+  font-size: 40pt;
+  margin-left: 20px;
+  margin-top: 0;
+  padding-top: 5px;
+}
+
+.nbaGames {
+  text-align: center;
+  font-size: 35pt;
+  margin-top: -25px;
+  color: green;
+  background-color: lightgray;
+  height: 55px;
+  font-family: 'Odibee Sans', cursive;
+}
+
+
+.gameDataContainerOne {
+  display: flex;
+  position: relative; 
+  background-color: lightgray;
+  width: 700px;
+  height: 100px;
+  margin: 50px 375px;
+  border-radius: 10px;
+  text-align: center;
+  opacity: 0.6;
+}
+
+.gameDataContainerTwo {
+  display: flex;
+  position: relative; 
+  background-color: lightgray;
+  width: 700px;
+  height: 100px;
+  margin: 50px 375px;
+  border-radius: 10px;
+  opacity: 0.6;
+}
+
+.gameDataContainerThree{
+  display: flex;
+  position: relative; 
+  background-color: lightgray;
+  width: 700px;
+  height: 100px;
+  margin: 50px 375px;
+  border-radius: 10px;
+  opacity: 0.6;
+}
+
+.gameDataContainerFour {
+  display: flex;
+  position: relative; 
+  background-color: lightgray;
+  width: 700px;
+  height: 100px;
+  margin: 50px 375px;
+  border-radius: 10px;
+  opacity: 0.6;
+}
+
+.gameDataContainerFive {
+  text-align: center;
+  display: flex;
+  position: relative; 
+  background-color: lightgray;
+  width: 700px;
+  height: 100px;
+  margin: 50px 375px;
+  border-radius: 10px;
+  opacity: 0.6;
+}
+
+.gameDataContainerSix {
+  display: flex;
+  position: relative; 
+  background-color: lightgray;
+  width: 700px;
+  height: 100px;
+  margin: 50px 375px;
+  border-radius: 10px;
+  opacity: 0.6;
+}
+
+.homeTeam {
+  margin: 35px auto;
+  /* margin-top: 35px; */
+  /* margin-right: 40px; */
+  font-size: 25px;
+}
+
+.visitorTeam {
+  margin: 35px auto;
+  /* margin-top: 35px;
+  margin-left: 40px; */
+  margin-right: 10px;
+  font-size: 25px;
+}
+
+.visitorScore {
+  margin: 43px auto;
+  /* margin-top: 43px;
+  /* color: blue; */
+  /* margin-right: 20px; */
+}
+
+.gameDataStatusContainer {
+  width: 75px;
+  height: 40px;
+  color: green;
+  text-align: center;
+  /* margin-top: 10px; */
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px auto;
+  /* margin-right: 20px; */
+}
+
+.homeScore {
+  margin-top: 43px;
+  margin-right: 20px;
+}
+
+.NCAAHeader {
+  height: 80px;
+  width: auto;
+  background-color: black;
+  color: blue;
+  margin-top: 0;
+}
+
+.NCAA {
+  font-size: 40pt;
+  margin-left: 20px;
+  margin-top: 0;
+  padding-top: 5px;
+  margin-bottom: 12px;
+}
+
+.NCAASeason {
+  text-align: center;
+  font-size: 35pt;
+  margin-top: 0;
+  color: green;
+  background-color: lightgray;
+  margin-top: 0;
+  height: 55px;
+  font-family: 'Odibee Sans', cursive;
+}
+
+.links {
+  position: absolute;
+  top: 100px;
+  left: 0;
+  font-size: 25px;
+}
+
 .App {
   text-align: center;
 }
@@ -19,4 +187,93 @@
 
 .App-link {
   color: #09d3ac;
+}
+
+/*------------------------------------------NFL Page--------------------------------------- */
+
+.nflHeader {
+  height: 80px;
+  width: auto;
+  background-color: black;
+  color: orange;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.nflGamesHeader {
+  text-align: center;
+  font-size: 35pt;
+  margin-top: -25px;
+  color: green;
+  background-color: lightgray;
+  height: 55px;
+  font-family: 'Odibee Sans', cursive;
+}
+
+.gameDataContainerOneNFL {
+  display: inline-block;
+  position: relative; 
+  background-color: lightgray;
+  width: 700px;
+  height: 215px;
+  margin: 10px 375px;
+  border-radius: 10px;
+  text-align: center;
+  opacity: 0.6;
+}
+
+.gameDataContainerTwoNFL {
+  display: inline-block;
+  position: relative; 
+  background-color: lightgray;
+  width: 700px;
+  height: 55px;
+  margin: 0px 375px;
+  border-radius: 10px;
+  text-align: center;
+  opacity: 0.6;
+}
+
+.gameDataContainerThreeNFL {
+  display: inline-block;
+  position: relative; 
+  background-color: lightgray;
+  width: 700px;
+  height: 75px;
+  margin: 10px 375px;
+  border-radius: 10px;
+  text-align: center;
+  opacity: 0.6;
+}
+
+.gameDataContainerFourNFL {
+  display: inline-block;
+  position: relative; 
+  background-color: lightgray;
+  width: 700px;
+  height: 55px;
+  margin: 10px 375px;
+  border-radius: 10px;
+  text-align: center;
+  opacity: 0.6;
+}
+
+.gameDataContainerFiveNFL {
+  display: inline-block;
+  position: relative; 
+  background-color: lightgray;
+  width: 700px;
+  height: 55px;
+  margin: 10px 375px;
+  border-radius: 10px;
+  text-align: center;
+  opacity: 0.6;
+}
+
+.dayTime{
+  font-size: 25px;
+}
+
+.teams{
+  font-size: 20px;
 }

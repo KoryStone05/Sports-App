@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import axios from 'axios';
 import games from './NFLGames';
 import './NFL.css';
 class NFL extends Component{
@@ -21,7 +20,6 @@ class NFL extends Component{
     }
 
     getGameDaySchedule(){
-        const gameDay = games
         return games
     };
 
@@ -29,26 +27,39 @@ class NFL extends Component{
     
         return(
             <div>
-                <h1>NFL</h1>
-                <h1>This Week's Games</h1>
-                <div className='dayTime'>{this.state.noonGames}</div>
-                <div className='teams'>{this.state.noonTeams[0]}</div>
-                <div className='teams'>{this.state.noonTeams[1]}</div>
-                <div className='teams'>{this.state.noonTeams[2]}</div>
-                <div className='teams'>{this.state.noonTeams[3]}</div>
-                <div className='teams'>{this.state.noonTeams[4]}</div>
-                <div className='teams'>{this.state.noonTeams[5]}</div>
-                <div className='teams'>{this.state.noonTeams[6]}</div>
-                <div className='teams'>{this.state.noonTeams[7]}</div>
-                <div className='dayTime'>{this.state.afternoonGames}</div>
-                <div className='teams'>{this.state.afternoonTeams}</div>
-                <div className='dayTime'>{this.state.lateAfternoonGames}</div>
-                <div className='teams'>{this.state.lateAfternoonTeams[0]}</div>
-                <div className='teams'>{this.state.lateAfternoonTeams[1]}</div>
-                <div className='dayTime'>{this.state.eveningGames}</div>
-                <div className='teams'>{this.state.eveningTeams}</div>
-                <div className='dayTime'>{this.state.mondayGames}</div>
-                <div className='teams'>{this.state.mondayTeams}</div>
+                <h1 className='nflHeader'>NFL</h1>
+                <h1 className='nflGamesHeader'>This Week's Games</h1>
+                <div className='thisWeekGames'>
+                    <div className='gameDataContainerOneNFL'>
+                        <div className='dayTime'>{this.state.noonGames}</div>
+                        <div className='teams'>{this.state.noonTeams[0]}</div>
+                        <div className='teams'>{this.state.noonTeams[1]}</div>
+                        <div className='teams'>{this.state.noonTeams[2]}</div>
+                        <div className='teams'>{this.state.noonTeams[3]}</div>
+                        <div className='teams'>{this.state.noonTeams[4]}</div>
+                        <div className='teams'>{this.state.noonTeams[5]}</div>
+                        <div className='teams'>{this.state.noonTeams[6]}</div>
+                        <div className='teams'>{this.state.noonTeams[7]}</div>
+                    </div>
+                    <div className='gameDataContainerTwoNFL'>
+                        <div className='dayTime'>{this.state.afternoonGames}</div>
+                        <div className='teams'>{this.state.afternoonTeams}</div>
+                    </div>
+                    <div className='gameDataContainerThreeNFL'>
+                        <div className='dayTime'>{this.state.lateAfternoonGames}</div>
+                        <div className='teams'>{this.state.lateAfternoonTeams[0]}</div>
+                        <div className='teams'>{this.state.lateAfternoonTeams[1]}</div>
+                    </div>
+                    <div className='gameDataContainerFourNFL'>
+                        <div className='dayTime'>{this.state.eveningGames}</div>
+                        <div className='teams'>{this.state.eveningTeams}</div>
+                    </div>
+                    <div className='gameDataContainerFiveNFL'>
+                        <div className='dayTime'>{this.state.mondayGames}</div>
+                        <div className='teams'>{this.state.mondayTeams}</div>
+                    </div>
+                </div>
+                
             </div>
         );
     }
